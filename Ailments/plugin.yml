@@ -1,0 +1,8 @@
+name: Diseases
+main: com.taco.Diseases
+version: 1.0
+permissions:
+    diseases.*:
+        description: Gives access to all IslandGhost commands.
+        children:
+            diseases.haunt: true
